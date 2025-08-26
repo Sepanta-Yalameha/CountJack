@@ -1,5 +1,15 @@
 # 🃏 CountJack - BlackJack Card Counting Trainer
 
+<div align="center">
+
+![CountJack Gameplay Demo](./demo/countjack-demo.gif)
+
+_Experience realistic card dealing animations, live count tracking, and interactive BlackJack training_
+
+</div>
+
+---
+
 A sophisticated web-based BlackJack card counting training application built with React and Tailwind CSS. Master the art of card counting with realistic gameplay, animated card dealing, multiple difficulty levels, and live count tracking.
 
 ## 🎯 Features
