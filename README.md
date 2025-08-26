@@ -15,7 +15,7 @@ A sophisticated web-based BlackJack card counting training application built wit
 
 ## 🚀 Live Demo
 
-**[Play CountJack Now →](your-deployment-url-here)**
+**[Play CountJack Now →](count-jack.vercel.app)**
 
 ## 🎮 How to Play
 
