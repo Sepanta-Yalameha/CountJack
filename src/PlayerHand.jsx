@@ -42,7 +42,7 @@ export default function PlayerHand({
     <div
       className={`rounded-2xl bg-green-900 shadow-lg flex flex-col items-center min-w-0 w-full md:w-auto max-w-full ${handPadding}`}
     >
-      <div className="text-base md:text-lg font-bold text-white mb-2 tracking-wide uppercase drop-shadow">
+      <div className="text-base md:text-lg font-bold text-white mb-2 tracking-wide drop-shadow">
         Hand {handNum}
       </div>
       <div className="flex flex-row flex-nowrap justify-center items-center gap-2 mb-2 overflow-x-auto">

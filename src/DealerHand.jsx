@@ -58,10 +58,6 @@ export default function DealerHand({
 
   return (
     <div className={`w-full flex flex-col items-center mb-4 ${handPadding}`}>
-      <div className="text-lg md:text-2xl font-bold text-white mb-2 tracking-wide uppercase drop-shadow">
-        Dealer
-      </div>
-
       {/* Dealer Total Display */}
       <div className="text-xl font-bold text-white mb-3 bg-red-800 px-4 py-2 rounded-lg border-2 border-red-600">
         Total: <span className="text-yellow-300">{getDisplayTotal()}</span>
