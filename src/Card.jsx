@@ -47,7 +47,7 @@ export default function Card({
   return (
     <img
       className={`rounded-lg shadow-xl border-2 bg-white select-none ${cardSize} flex-shrink min-w-0 max-w-full h-auto ${animationClasses}`}
-      src={card.hidden ? `/cards/back.png` : `/cards/${card.name}.png`}
+      src={card.hidden ? `/cards/BACK.png` : `/cards/${card.name}.png`}
       alt={card.name}
       draggable={false}
     />

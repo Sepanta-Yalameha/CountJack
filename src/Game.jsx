@@ -106,7 +106,7 @@ export default function Game() {
       <div className="w-full max-w-5xl rounded-2xl shadow-2xl bg-black/70 p-2 md:p-6 flex flex-col gap-4 flex-grow">
         <header className="flex flex-col md:flex-row md:items-center md:justify-between gap-2 mb-2">
           <h1 className="text-3xl md:text-4xl font-extrabold text-yellow-300 tracking-wider drop-shadow-lg text-center">
-            Blackjack
+            Count Jack
           </h1>
 
           <CountDisplay
