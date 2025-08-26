@@ -59,6 +59,8 @@ desktop.ini
 .yarn/
 .pnp.*
 
+.env
+
 # ESLint cache
 .eslintcache
 

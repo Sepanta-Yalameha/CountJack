@@ -1,3 +1,5 @@
+import ViewCounter from "./ViewCount";
+
 const GameSetup = ({
   numDecks,
   setNumDecks,
@@ -9,7 +11,12 @@ const GameSetup = ({
   onStartGame,
 }) => {
   return (
-    <div className="min-h-screen w-full bg-gradient-to-br from-green-900 via-emerald-800 to-green-700 flex flex-col items-center justify-center">
+    <div className="min-h-screen w-full bg-gradient-to-br from-green-900 via-emerald-800 to-green-700 flex flex-col items-center justify-center relative">
+      {/* View Counter positioned at top-right */}
+      <div className="absolute top-6 right-6 z-10">
+        <ViewCounter />
+      </div>
+
       <div className="bg-black/70 p-8 rounded-2xl shadow-2xl max-w-md w-full mx-4">
         <h1 className="text-4xl font-extrabold text-yellow-300 text-center mb-8 tracking-wider">
           Setup
