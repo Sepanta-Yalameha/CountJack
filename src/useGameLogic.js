@@ -293,6 +293,7 @@ export const useGameLogic = (numDecks, numHands, difficulty) => {
       });
       newDealerHand.splice(0, newDealerHand.length, ...cleanedHand);
     }
+    countChange += checkCountValue(newDealerHand[1]);
 
     while (totalAndHandleAce(newDealerHand) < 17) {
       const card = {
